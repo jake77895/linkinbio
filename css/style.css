@@ -1,14 +1,41 @@
+html {
+
+  min-height: 100%;
+
+}
+
 body {
 
+  min-height: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
+  background: linear-gradient(150deg, #f9f9f9, #d4dad6, #afbbb6, #8b9d9b, #698083, #49636f, #2c475c, #142b4e); /* made at https://learnui.design/tools/gradient-generator.html */;
   
 }
 
 .avatar_image {
-  width: 1px;
+  width: 128px;
   height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
   
+}
+
+.thumbnail {
+
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+
+}
+
+.icons {
+
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+
 }
 
 * {
